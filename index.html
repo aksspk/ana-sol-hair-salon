@@ -11,12 +11,12 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   :root {
-  --espresso: #ffffff;
-  --charcoal: #ffffff;
-  --gold: #c9a96a;
-  --champagne: #111111;
-  --cream: #111111;
-  --muted: #666666;
+    --espresso: #1a1512;
+    --charcoal: #14110f;
+    --gold: #c9a96a;
+    --champagne: #e8d4b0;
+    --cream: #f4ede2;
+    --muted: #9a8e80;
   }
 
   html { scroll-behavior: smooth; }
@@ -55,7 +55,7 @@
     mix-blend-mode: normal;
     border-bottom: 1px solid rgba(201,169,106,0.15);
   }
-  nav .logo { font-family: 'Montserrat', serif; font-size: 1.3rem; letter-spacing: 0.1em; color: #fff; }
+  nav .logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; letter-spacing: 0.1em; color: #fff; }
   nav .logo span { color: var(--gold); }
   nav .links { display: flex; gap: 2rem; align-items: center; }
   nav .links a {
@@ -69,7 +69,7 @@
     padding: 0.6rem 1.3rem; border-radius: 2px;
     transition: all 0.3s;
   }
-  nav .book-btn:hover { background: var(--gold); color: var(--gold) !important; }
+  nav .book-btn:hover { background: var(--gold); color: var(--charcoal) !important; }
   .menu-toggle { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
   .menu-toggle span { width: 26px; height: 2px; background: var(--cream); transition: 0.3s; }
 
@@ -105,7 +105,7 @@
     text-shadow: 0 6px 40px rgba(0,0,0,0.6);
     animation: fadeUp 1.2s ease 0.4s both;
   }
-  .hero-content h1 em { font-style: italic; color: var(--gold) !important; }
+  .hero-content h1 em { font-style: italic; color: var(--champagne); }
   .hero-content .sub {
     margin-top: 1.8rem; font-size: 1rem; letter-spacing: 0.2em;
     text-transform: uppercase; color: var(--champagne); font-weight: 300;
@@ -126,7 +126,7 @@
 
   /* SECTIONS */
   section { position: relative; z-index: 3; }
-  .panel { background: var(--cream); }
+  .panel { background: var(--charcoal); }
 
   .container { max-width: 1200px; margin: 0 auto; padding: 0 2.5rem; }
 
@@ -138,9 +138,9 @@
     background-size: cover; background-position: center;
   }
   .about-text h2 { font-size: clamp(2rem, 4vw, 3rem); margin: 1rem 0 1.5rem; line-height: 1.15; }
-  .about-text h2 em { font-style: italic; color: var(--cream); }
+  .about-text h2 em { font-style: italic; color: var(--gold); }
   .about-text p { color: var(--muted); margin-bottom: 1.3rem; max-width: 480px; }
-  .signature { font-family: 'Montserrat', serif; font-style: italic; font-size: 1.5rem; color: var(--champagne); margin-top: 1.5rem; }
+  .signature { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.5rem; color: var(--champagne); margin-top: 1.5rem; }
   .stats { display: flex; gap: 2.5rem; margin-top: 2.5rem; }
   .stat .num { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--gold); }
   .stat .lbl { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
